@@ -1,0 +1,395 @@
+{
+  "uuid": "19a1f4b34ee83d31f63063e625d6522c",
+  "path": "Offline/GP_PCB_1",
+  "name": "GP_PCB_1",
+  "content": "",
+  "created_at": "2024-07-03 13:20:25",
+  "updated_at": "2024-07-05 19:21:56",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "6d020cd09e82f51c975d532111afa05d",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "cedcd0ca16104dd78aa1520c6771b539": 1,
+        "df38f7d2c20c411bbb422316da11c400": 1,
+        "e96bd80267e649a59f4ac78e2c5ffad6": 1,
+        "1e3028edc1354fbc807aef6c2cedf271": 9,
+        "e8dd853240924b8e827b4e8453c8389c": 4,
+        "d1fb14e5426340758dcd9846200d2bd4": 1,
+        "53b30295e08d403c8dd8638a482ef88f": 1,
+        "bbc071fba21c460c8ae32593087d1dc2": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "47uF",
+          4,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "C1,C2,C3,C4",
+          {
+            "Supplier": "",
+            "Manufacturer": "CX(承兴)",
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Supplier Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "abhishekyr2002",
+            "spiceSymbolName": "CAPACITOR COPY",
+            "puuid": "96985d16b14e41c1ae17e0539dfd987b",
+            "uuid": "e8dd853240924b8e827b4e8453c8389c"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED-TH_LED-DP2-2LED-AMCC",
+          "D1",
+          {
+            "Supplier": "Digi-Key",
+            "Manufacturer": "VccLite",
+            "Manufacturer Part": "5600",
+            "Supplier Part": "L20325-ND",
+            "link": "https://vcclite.com/product/5602f5-5v/",
+            "Contributor": "lionli",
+            "spiceSymbolName": "LED",
+            "puuid": "61fd309cf6944a5bb83fb10401f7c513",
+            "uuid": "df38f7d2c20c411bbb422316da11c400"
+          }
+        ],
+        [
+          "TRRS_JACKBREAKOUT",
+          1,
+          "HEADER-4-PIN-TRRS-JACK-BREAKOUT",
+          "JP1",
+          {
+            "Contributor": "zaharren",
+            "spiceSymbolName": "TRRS_JACKBREAKOUT",
+            "Manufacturer Part": "",
+            "puuid": "1a7741d4064f4c6f92a24674238d466c",
+            "uuid": "e96bd80267e649a59f4ac78e2c5ffad6"
+          }
+        ],
+        [
+          "STM32F411CEU6 WEACT BLACK PILL V3.0",
+          1,
+          "STM32F411CEU6BP",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Walyson Santos",
+            "spiceSymbolName": "STM32F411CEU6 WEACT BLACK PILL V3.0",
+            "puuid": "98e652342436454fbf715809ca9bc8a8",
+            "uuid": "d1fb14e5426340758dcd9846200d2bd4"
+          }
+        ],
+        [
+          "ResistorToday",
+          9,
+          "RES35",
+          "R1,R2,R3,R4,R5,R6,R7=4.7K,R8=330,R9=10+330",
+          {
+            "Supplier": "",
+            "Supplier Part": "C351613",
+            "Manufacturer": "ResistorToday",
+            "Manufacturer Part": "PTFR0805B130KN9",
+            "Contributor": "gusteivosgp",
+            "spiceSymbolName": "Standard Resistor",
+            "puuid": "3c8b25e010f6437fbf266421522daf8d",
+            "uuid": "1e3028edc1354fbc807aef6c2cedf271"
+          }
+        ],
+        [
+          "NORMALBATTARY(Sch)",
+          1,
+          "NORMALBATTARY",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "S-Pavlov02",
+            "spiceSymbolName": "NORMALBATTARY(Sch)",
+            "puuid": "924b42d46eea43668c458c6b369283c7",
+            "uuid": "53b30295e08d403c8dd8638a482ef88f"
+          }
+        ],
+        [
+          "My_push_button_2pin",
+          1,
+          "MY_PUSH_BUTTON_2PIN",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "amro43210",
+            "spiceSymbolName": "My_push_button_2pin",
+            "puuid": "4c46cbd409a44680ad685fb66e2907da",
+            "uuid": "bbc071fba21c460c8ae32593087d1dc2"
+          }
+        ],
+        [
+          "TL072CP",
+          1,
+          "PIT_DIP-8",
+          "U1",
+          {
+            "tags": "FET Operational Amplifier",
+            "Supplier Part": "C7236",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI",
+            "Manufacturer Part": "TL072CP",
+            "subpart_no": "1",
+            "spiceSymbolName": "TL072CP",
+            "puuid": "0bc72d7796674848b7cba2996e4afc72",
+            "uuid": "cedcd0ca16104dd78aa1520c6771b539"
+          }
+        ]
+      ],
+      "updateTime": 1720199978,
+      "createTime": 1720005625,
+      "histories": [],
+      "created_at": "2024-07-03 13:20:25",
+      "updated_at": "2024-07-05 19:19:38"
+    },
+    {
+      "uuid": "57fce3ec82bd69cf15752af82f2bf663",
+      "puuid": "19a1f4b34ee83d31f63063e625d6522c",
+      "title": "PCB_GP_PCB_2",
+      "filename": "PCB_GP_PCB_2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "98e652342436454fbf715809ca9bc8a8": 1,
+        "96985d16b14e41c1ae17e0539dfd987b": 4,
+        "61fd309cf6944a5bb83fb10401f7c513": 1,
+        "1a7741d4064f4c6f92a24674238d466c": 1,
+        "3c8b25e010f6437fbf266421522daf8d": 6,
+        "924b42d46eea43668c458c6b369283c7": 1,
+        "0bc72d7796674848b7cba2996e4afc72": 1
+      },
+      "BOM": [],
+      "updateTime": 1720013227,
+      "createTime": 1720005647,
+      "histories": [],
+      "created_at": "2024-07-03 13:20:47",
+      "updated_at": "2024-07-03 15:27:07"
+    },
+    {
+      "uuid": "1428154626d25275432de96a70fcca87",
+      "puuid": "19a1f4b34ee83d31f63063e625d6522c",
+      "title": "PCB_GP_PCB_1",
+      "filename": "PCB_GP_PCB_1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3c8b25e010f6437fbf266421522daf8d": 9,
+        "4c46cbd409a44680ad685fb66e2907da": 1,
+        "96985d16b14e41c1ae17e0539dfd987b": 4,
+        "61fd309cf6944a5bb83fb10401f7c513": 1,
+        "1a7741d4064f4c6f92a24674238d466c": 1,
+        "98e652342436454fbf715809ca9bc8a8": 1,
+        "0bc72d7796674848b7cba2996e4afc72": 1,
+        "924b42d46eea43668c458c6b369283c7": 1
+      },
+      "BOM": [],
+      "updateTime": 1720200091,
+      "createTime": 1720017264,
+      "histories": [],
+      "created_at": "2024-07-03 16:34:24",
+      "updated_at": "2024-07-05 19:21:31"
+    },
+    {
+      "uuid": "2b4952377751c207b2bd540e4da8b9df",
+      "puuid": "19a1f4b34ee83d31f63063e625d6522c",
+      "title": "PCB_GP_PCB_3",
+      "filename": "PCB_GP_PCB_3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3c8b25e010f6437fbf266421522daf8d": 9,
+        "4c46cbd409a44680ad685fb66e2907da": 1,
+        "96985d16b14e41c1ae17e0539dfd987b": 4,
+        "61fd309cf6944a5bb83fb10401f7c513": 1,
+        "1a7741d4064f4c6f92a24674238d466c": 1,
+        "98e652342436454fbf715809ca9bc8a8": 1,
+        "0bc72d7796674848b7cba2996e4afc72": 1,
+        "924b42d46eea43668c458c6b369283c7": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "47uF",
+          4,
+          "CAPACITOR, 100UF 2.54MM PIN CAPACITOR",
+          "C1,C2,C3,C4",
+          {
+            "Supplier": "",
+            "Manufacturer": "CX(承兴)",
+            "Manufacturer Part": "KM476M016D11RR0VH2FP0",
+            "Supplier Part": "",
+            "JLCPCB Part Class": "Extended Part",
+            "Contributor": "abhishekyr2002",
+            "spiceSymbolName": "CAPACITOR COPY",
+            "puuid": "96985d16b14e41c1ae17e0539dfd987b",
+            "uuid": "e8dd853240924b8e827b4e8453c8389c"
+          }
+        ],
+        [
+          "LED",
+          1,
+          "LED-TH_LED-DP2-2LED-AMCC",
+          "D1",
+          {
+            "Supplier": "Digi-Key",
+            "Manufacturer": "VccLite",
+            "Manufacturer Part": "5600",
+            "Supplier Part": "L20325-ND",
+            "link": "https://vcclite.com/product/5602f5-5v/",
+            "Contributor": "lionli",
+            "spiceSymbolName": "LED",
+            "puuid": "61fd309cf6944a5bb83fb10401f7c513",
+            "uuid": "df38f7d2c20c411bbb422316da11c400"
+          }
+        ],
+        [
+          "TRRS_JACKBREAKOUT",
+          1,
+          "HEADER-4-PIN-TRRS-JACK-BREAKOUT",
+          "JP1",
+          {
+            "Contributor": "zaharren",
+            "spiceSymbolName": "TRRS_JACKBREAKOUT",
+            "Manufacturer Part": "",
+            "puuid": "1a7741d4064f4c6f92a24674238d466c",
+            "uuid": "e96bd80267e649a59f4ac78e2c5ffad6"
+          }
+        ],
+        [
+          "STM32F411CEU6 WEACT BLACK PILL V3.0",
+          1,
+          "STM32F411CEU6BP",
+          "M1",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "Walyson Santos",
+            "spiceSymbolName": "STM32F411CEU6 WEACT BLACK PILL V3.0",
+            "puuid": "98e652342436454fbf715809ca9bc8a8",
+            "uuid": "d1fb14e5426340758dcd9846200d2bd4"
+          }
+        ],
+        [
+          "ResistorToday",
+          9,
+          "RES35",
+          "R1,R2,R3,R4,R5,R6,R7=4.7K,R8=330,R9=10+330",
+          {
+            "Supplier": "",
+            "Supplier Part": "C351613",
+            "Manufacturer": "ResistorToday",
+            "Manufacturer Part": "PTFR0805B130KN9",
+            "Contributor": "gusteivosgp",
+            "spiceSymbolName": "Standard Resistor",
+            "puuid": "3c8b25e010f6437fbf266421522daf8d",
+            "uuid": "1e3028edc1354fbc807aef6c2cedf271"
+          }
+        ],
+        [
+          "NORMALBATTARY(Sch)",
+          1,
+          "NORMALBATTARY",
+          "U2",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier Part": "",
+            "Supplier": "",
+            "link": "",
+            "Contributor": "S-Pavlov02",
+            "spiceSymbolName": "NORMALBATTARY(Sch)",
+            "puuid": "924b42d46eea43668c458c6b369283c7",
+            "uuid": "53b30295e08d403c8dd8638a482ef88f"
+          }
+        ],
+        [
+          "My_push_button_2pin",
+          1,
+          "MY_PUSH_BUTTON_2PIN",
+          "U3",
+          {
+            "Manufacturer": "",
+            "Manufacturer Part": "",
+            "Supplier": "",
+            "Supplier Part": "",
+            "link": "",
+            "Contributor": "amro43210",
+            "spiceSymbolName": "My_push_button_2pin",
+            "puuid": "4c46cbd409a44680ad685fb66e2907da",
+            "uuid": "bbc071fba21c460c8ae32593087d1dc2"
+          }
+        ],
+        [
+          "TL072CP",
+          1,
+          "PIT_DIP-8",
+          "U1",
+          {
+            "tags": "FET Operational Amplifier",
+            "Supplier Part": "C7236",
+            "Supplier": "LCSC",
+            "Manufacturer": "TI",
+            "Manufacturer Part": "TL072CP",
+            "subpart_no": "1",
+            "spiceSymbolName": "TL072CP",
+            "puuid": "0bc72d7796674848b7cba2996e4afc72",
+            "uuid": "cedcd0ca16104dd78aa1520c6771b539"
+          }
+        ]
+      ],
+      "updateTime": 1720200116,
+      "createTime": 1720200116,
+      "histories": [],
+      "created_at": "2024-07-05 19:21:56",
+      "updated_at": "2024-07-05 19:21:56"
+    }
+  ],
+  "sort": [],
+  "title": "GP_PCB_1",
+  "foldername": "GP_PCB_1",
+  "schfilename": "GP_PCB_1.json",
+  "schfilemtime": 1720199978337
+}
